@@ -20,7 +20,7 @@ int main () {
     graph.openForReading(filename);
 
     //declares output file for writing out to TXT
-    ofstream o("testout.txt");
+    ofstream o("output.txt");
 
     //declares timing variable
     chrono::time_point<std::chrono::system_clock> start_greedy, end_greedy, start_rand, end_rand;
